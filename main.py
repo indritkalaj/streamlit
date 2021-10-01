@@ -78,14 +78,17 @@ st.write()
 
 
 #############################################################################################
+#  https://discuss.streamlit.io/t/filter-dataframe-by-selections-made-in-select-box/6627/14
+#
 
 
+Data_filtering = []
 contact_type = df.contact_type.unique()
-contact_type_choice = [0].selectbox("Contact Type:", contact_type)
+contact_type_choice = Data_filtering[0].selectbox("Contact Type: ", contact_type)
 
 # CATEGORY - get all row values in the category column that are in the country column
-agent_name = df['agent_name'].loc[data['Geography'] == Country_choice].unique()
-Category_choice = Data_filtering[1].selectbox("Category", category)
+agent_name = df['agent_name'].loc[df['contact_type'] == contact_type_choice].unique()
+contact_type_choice = Data_filtering[1].selectbox("Agent Name: ", agent_name)
 
 
 # SERIES - get all series row values that are in the category column
