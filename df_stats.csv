@@ -1,0 +1,9 @@
+,handled_contacts,resolved_contacts,gacd_resolved_contacts,hmd_poll_yes,hmd_poll_no,hmd_response_no,hmd_response_no_adjusted,hmd_response_yes_adjusted,understandability_12345count,understandability_45count,hmd_total_responses,total_contacts_hmd,auto_resolved_contacts,parked_contacts
+count,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mean,,,,,,,,,,,,,,
+std,,,,,,,,,,,,,,
+min,,,,,,,,,,,,,,
+25%,,,,,,,,,,,,,,
+50%,,,,,,,,,,,,,,
+75%,,,,,,,,,,,,,,
+max,,,,,,,,,,,,,,
